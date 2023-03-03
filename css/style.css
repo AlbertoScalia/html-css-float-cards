@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 30px;
+}
+
+main {
+    overflow: auto;
+    margin-top: 4%;
+}
+
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 4% 1% 0;
+    background-color: black;
+    box-shadow: 1px 1px 15px -3px #000000;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+h1 {
+    color: #e53170;
+    font-weight: 1000;
+}
+
+p:first-child {
+    color: black;
+    text-align: center;
+}
+
+section img {
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+}
+
+h2, section p {
+    text-align: left;
+    color: white;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+section a{
+    text-decoration: none;
+    color: #259ce9;
+}
